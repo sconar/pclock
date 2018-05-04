@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp1933739.jpg");
+    background-size: 100%;
+    background-color: white;
+}
+
+#block {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;   
+    border-radius: 15px;
+    width: 50%
+}
+
+.spacer {
+    padding: 3%
+}
+
+h2 {
+    display: inline;
+}
+
+#start, #reset {
+    margin: 15px;
+}
+
+.custom {
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 0, 92);
+}
+
+#title1 {
+  margin-left: 235px;
+  margin-right: 235px
+}

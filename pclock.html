@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/pclock.css" type="text/css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="js/pclock.js"></script>
+        <audio id="alarm" src="https://notificationsounds.com/soundfiles/b5b41fac0361d157d9673ecb926af5ae/file-sounds-727-good-morning.mp3"></audio>
+    </head>
+    <body>
+        <div class="spacer"></div>
+        <div class="container-fluid text-center" id="block">
+            <h1>Pomodoro Clock</h1>
+            <h3>FCC project</h3>
+            <div id="timeDiv">
+                <h1 id="title1" class="custom">Time</h1><br>
+                <a href="#" class="btn custom" id="m5Time">-</a>
+                <h2 id="session"></h2>
+                <h2 id="num" class="custom">0</h2>
+                <a href="#" class="btn custom" id="p5Time">+</a><br>
+                <a href="#" class="btn custom" id="start">START</a><br>
+            </div>
+            <div id="breakDiv">
+                <h1 id="title1" class="custom">Break</h1><br>
+                <a href="#" class="btn custom" id="m5Break">-</a>
+                <h2 id="breakNum" class="custom">0</h2>
+                <a href="#" class="btn custom" id="p5Break">+</a><br>
+            </div>
+            <a href="#" class="btn custom" id="reset">RESET</a>   
+        </div>
+        <div class="spacer"></div>
+    </body>
+</html>
